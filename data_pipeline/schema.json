@@ -1,0 +1,130 @@
+{
+  "profile_id": "59ba3305-ec05-5873-9a45-4a766c6609fc:9a7b2e88-0b85-5e88-a5d7-77bd298ee714",
+  "case_id": "59ba3305-ec05-5873-9a45-4a766c6609fc",
+  "image_id": "9a7b2e88-0b85-5e88-a5d7-77bd298ee714",
+
+  "patient": {
+    "age_years": 69,
+    "sex": "female",
+    "immunocompromised": "no",
+    "weight_kg": null,
+    "comorbidities": [
+      "hypertension",
+      "type 2 diabetes",
+      "atrial fibrillation"
+    ],
+    "medications": [
+      "Metoprolol 25 mg",
+      "Rivaroxiban"
+    ],
+    "allergies": null
+  },
+
+  "presentation": {
+    "chief_complaint": "scheduled for living donor liver transplantation (LDLT)",
+    "symptom_duration": null,
+    "hpi": "A 69-year-old female with a history of hypertension, type 2 diabetes, atrial fibrillation and hepatocellular carcinoma with liver cirrhosis was scheduled for living donor liver transplantation (LDLT). Pre-operative assessment revealed no cardio-respiratory symptoms, except an irregularly irregular pulse. Chest X-ray showed an incidental scimitar sign along with a smaller right lung shadow, and a marked displacement of the mediastinum to the right side.",
+    "pmh": "hypertension, type 2 diabetes, atrial fibrillation (AF), and interval progression of hepatocellular carcinoma with liver cirrhosis"
+  },
+
+  "study": {
+    "modality": "CXR",
+    "body_region": "thorax",
+    "view_position": "PA",
+    "radiology_region": "thorax",
+    "caption": "Chest X-ray showing Scimitar sign.",
+    "image_type": "radiology",
+    "image_subtype": "x_ray",
+    "image_url": "https://storage.googleapis.com/casetwin-xrays/chest-xrays/PMC10077807_SJA-17-101-g001_undivided_1_1.webp",
+    "storage_path": "gs://casetwin-xrays/chest-xrays/PMC10077807_SJA-17-101-g001_undivided_1_1.webp"
+  },
+
+  "assessment": {
+    "diagnosis_primary": "scimitar syndrome",
+    "suspected_primary": [
+      "scimitar syndrome",
+      "hepatocellular carcinoma",
+      "liver cirrhosis"
+    ],
+    "differential": [],
+    "urgency": "routine",
+    "infectious_concern": "no",
+    "icu_candidate": "yes"
+  },
+
+  "findings": {
+    "lungs": {
+      "consolidation_present": "no",
+      "consolidation_locations": [],
+      "consolidation_extent": "unknown",
+      "atelectasis_present": "no",
+      "atelectasis_locations": [],
+      "edema_present": "no",
+      "edema_pattern": "unknown"
+    },
+    "pleura": {
+      "effusion_present": "no",
+      "effusion_side": "unknown",
+      "effusion_size": "unknown",
+      "pneumothorax_present": "no",
+      "pneumothorax_side": "unknown"
+    },
+    "cardiomediastinal": {
+      "cardiomegaly": "yes",
+      "mediastinal_widening": "no"
+    },
+    "devices": {
+      "lines_tubes_present": "yes",
+      "device_list": [
+        "ett",
+        "radial arterial line",
+        "femoral arterial line",
+        "pulmonary artery catheter"
+      ]
+    }
+  },
+
+  "summary": {
+    "one_liner": "69-year-old female with scimitar syndrome, hypertension, type 2 diabetes, atrial fibrillation and hepatocellular carcinoma with liver cirrhosis who underwent living donor liver transplantation.",
+    "key_points": [
+      "Incidental scimitar sign on chest X-ray",
+      "Hypoplastic right lung with venous drainage to the IVC",
+      "Cardiomegaly with enlarged pulmonary vessels and bicaval dilatation"
+    ],
+    "red_flags": [
+      "Potential air embolism in the presence of PFO",
+      "Hemodynamic instability during neohepatic phase"
+    ]
+  },
+
+  "outcome": {
+    "success": "yes",
+    "detail": "The patient tolerated the liver transplantation well and was discharged from ICU on the 4th post-op day."
+  },
+
+  "provenance": {
+    "dataset_name": "multicare",
+    "pmc_id": "PMC10077807",
+    "pmid": "37032661",
+    "doi": "10.4103/sja.sja_553_22",
+    "article_title": "Anesthesia management of living donor liver transplantation in a patient with scimitar syndrome",
+    "journal": "Saudi J Anaesth",
+    "year": 2023,
+    "authors": [
+      "Muhammad Shabbir",
+      "Amer Majeed",
+      "Mudassir A Baig",
+      "Matloob A Shajar",
+      "Tahir Iqbal"
+    ],
+    "license": "CC BY-NC-SA",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/37032661/"
+  },
+
+  "tags": {
+    "ml_labels": ["thorax", "radiology", "frontal", "x_ray"],
+    "gt_labels": ["radiology", "thorax", "x_ray"],
+    "keywords": ["aberrant pulmonary veins", "scimitar", "liver transplantation"],
+    "mesh_terms": ["Case Reports"]
+  }
+}
